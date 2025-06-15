@@ -13,7 +13,7 @@ Narzędzie CLI do pracy z plikami JSON.
 1. Sklonuj repozytorium:
 
 ```bash
-git clone https://github.com/twojlogin/JsonCLI.git
+git clone https://github.com/codecraze02/JsonCLI.git
 cd JsonCLI
 ```
 
@@ -47,14 +47,20 @@ chmod +x jsoncli.py
 
 Wyświetl ładnie cały JSON:
 
-```bash./jsoncli.py data.json --pretty```
+```bash
+./jsoncli.py data.json --pretty
+```
 
 Pobierz nazwę użytkownika:
 
-```bash./jsoncli.py data.json --get user.name```
+```bash
+./jsoncli.py data.json --get user.name
+```
 
 Sprawdź, czy JSON jest poprawny:
 
-```bash./jsoncli.py data.json --validate```
+```bash
+./jsoncli.py data.json --validate
+```
 
 ---
