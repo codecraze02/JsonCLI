@@ -31,6 +31,7 @@ chmod +x jsoncli.py
 ```
 ## Przykład JSON
 
+```json
 {
     "user": {
         "name": "Jan",
@@ -41,19 +42,19 @@ chmod +x jsoncli.py
         {"id": 2, "name": "Tarcza"}
     ]
 }
-
+```
 ## Przykładowe wywołania
 
 Wyświetl ładnie cały JSON:
 
-./jsoncli.py data.json --pretty
+```bash./jsoncli.py data.json --pretty```
 
 Pobierz nazwę użytkownika:
 
-./jsoncli.py data.json --get user.name
+```bash./jsoncli.py data.json --get user.name```
 
 Sprawdź, czy JSON jest poprawny:
 
-./jsoncli.py data.json --validate
+```bash./jsoncli.py data.json --validate```
 
 ---
